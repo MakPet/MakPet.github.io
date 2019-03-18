@@ -1,0 +1,36 @@
+html {
+  font-size: 10px; /* теперь размер шрифта 10 */
+  font-family: 'Raleway', sans-serif;/* сюда вставляем шрифт из Google fonts */
+}
+h1 {
+  font-size: 60px;
+  text-align: center; /* выравнивание текста по центру */
+}
+p, li {
+  font-size: 16px;
+  line-height: 2; /* высота букв */
+  letter-spacing: 1px; /* ширина между буквами */
+}
+html {
+    background: url(../images/ithtml.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+body {
+  background: url(../images/itbody.jpg) no-repeat; 
+  width: 1000px;
+  margin: 40px auto;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  text-shadow: 2px 2px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
